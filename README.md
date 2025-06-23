@@ -1,5 +1,5 @@
 ## Backend: 
-FastAPI, CLIP + bgem3 embeddings, 
+FastAPI, CLIP + bge-m3 embeddings, 
 
 ## Frontend: 
 HTML/CSS/JS + Tesseract.js,
