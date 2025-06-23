@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Montserrat', sans-serif; background: #f2f4f8; color: #333; }
+.container { display: flex; height: 100vh; }
+.sidebar { width: 360px; background: #fff; padding: 24px; box-shadow: 2px 0 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; }
+.sidebar h1 { font-size: 24px; margin-bottom: 16px; color: #4a90e2; }
+.chat-window { flex: 1; background: #e8ebf0; padding: 16px; border-radius: 8px; overflow-y: auto; }
+.message { max-width: 80%; margin-bottom: 12px; padding: 12px 16px; border-radius: 20px; word-wrap: break-word; }
+.message.user { background: #4a90e2; color: #fff; align-self: flex-end; }
+.message.bot { background: #fff; color: #333; box-shadow: 0 2px 4px rgba(0,0,0,0.1); align-self: flex-start; }
+.controls { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+.controls input[type='text'] { padding: 12px 16px; border: 1px solid #ccc; border-radius: 24px; font-size: 16px; }
+.controls button, .controls .file-label span { padding: 12px 20px; background: #50e3c2; color: #fff; border: none; border-radius: 24px; font-size: 16px; cursor: pointer; transition: background 0.3s, transform 0.2s; text-align: center; }
+.controls button:hover, .controls .file-label span:hover { background: #3ecfa6; transform: translateY(-2px); }
+.file-label span { display: inline-block; }
+.video-area { flex: 1; background: #000; display: flex; align-items: center; justify-content: center; }
+#video { width: 100%; height: auto; border-radius: 8px; }
