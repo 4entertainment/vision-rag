@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+transformers
+torch
+faiss-cpu
+pillow
+txtai
+python-multipart
+easyocr
