@@ -8,7 +8,7 @@ HTML/CSS/JS + Tesseract.js,
 “Start Camera” gets 2frames every 2sec -> OCR -> RAG
 
 
-START:
+## START:
 ```
 cd backend
 pip install -r requirements.txt
